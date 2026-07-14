@@ -168,7 +168,6 @@
 .scoreMeaningGuide th{position:static;background:#3f8992;color:white}
 @media print{.tableActionBar,.scoreMeaningGuide .noPrint{display:none!important}}
 </style></head><body>
-
 <div class="appHeader">
   <div class="headerRow">
     <div class="headerLeft">
@@ -525,7 +524,7 @@ function exportKurangDimensiExcel(){
   exportRows('dashboard_kurang_dimensi_'+(kurangMode||'all')+'.csv',rows)
 }
 
-
+	  
 /* === FIX GRAFIK STATUS DESA v24 PERBANDINGAN WILAYAH === */
 const STATUS_LIST_GRAFIK=['Mandiri','Maju','Berkembang','Tertinggal','Sangat Tertinggal'];
 function currentGrafikStatusSource(){
