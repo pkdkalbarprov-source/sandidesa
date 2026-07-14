@@ -1,5 +1,14 @@
-# Object file
-*.o
+# OS files
+.DS_Store
+Thumbs.db
 
-# Ada Library Information
-*.ali
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Node (jika nanti menambahkan tooling build)
+node_modules/
